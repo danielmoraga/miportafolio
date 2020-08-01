@@ -23,11 +23,12 @@ body{
     text-align: center;
 }
 header{
-    background-image: url(../img/nuves.jpg);
+    background-image: url(../img/hero.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
     background-attachment: fixed;
+    padding: 10rem 0;
 }
 
 
@@ -58,11 +59,4 @@ header{
     cursor: pointer;
     }
 
-
-hr {
-    border: none;
-    height: 1px;
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    margin:2rem 0;
-}
 

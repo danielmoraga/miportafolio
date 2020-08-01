@@ -15,8 +15,6 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-
 UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <!--animate css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
   <!-- Nuestra hoja de estilos propia -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- Titulo del sitio -->
@@ -37,7 +35,7 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#sobremi">Sobre mi</a>
@@ -59,32 +57,33 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
 
 
   <!--principal-->
-  <header>
-    <div class="container" id="inicio">
-      <div class="row py-0">
-        <div class="card col-xs-12 col-md-6 px-0 border-0">
-          <img class="card-img-top" src="assets/img/daniel.jpg" alt="foto" />
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <h1 class="text-uppercase pt-2 ml-md-3 display-2 text-md-left text-center">
-            Daniel Moraga Rodriguez
-          </h1>
-          <p class="text-md-left text-center display-4 ml-md-3 tipografia2">Diseñador Gráfico</p>
-          <p class="text-md-left text-center ml-md-3">Experiencia en diseño editorial, mailing marketing, web, diseño
-            publicitario, normas gráficas y esquemática, entre otros</p>
-        </div>
+  <header id="inicio">
+    <div class="container">
+      <h1 class="text-uppercase display-3 text-center">
+        Daniel Moraga Rodríguez
+      </h1>
+      <p class="text-center display-4 tipografia2">Diseñador Gráfico</p>
+      <p class="text-center">Experiencia en diseño editorial, mailing marketing, web, diseño
+        publicitario, normas gráficas y esquemática, entre otros</p>
+      <div class="d-flex justify-content-center">
+        <a href="#contacto" class="btn btn-outline-dark btn-lg mt-3" role="button" aria-pressed="true"
+          data-toggle="tooltip" data-placement="bottom"
+          title="Presiona aquí y te dirigiras a un formulario">Contáctame</a>
       </div>
     </div>
   </header>
 
-    <!-- Sobre mi -->
+  <!-- Sobre mi -->
   <section class="container-fluid gradiente2 pad-arriba pb-5 d-none d-xs-block d-sm-block " id="sobremi">
     <div class="container">
       <h2 class="display-3 text-center pb-3 text-secondary">Sobre mi</h2>
       <h3 class="text-left text-uppercase colortipo1">Origen</h3>
-      <p class="my-4">Vivo en Santiago de Chile pero mi niñez y juventud fueron en la cuidad de Quillota de la Regíon de Valparaíso, donde estudié mi educación básica y secundaria. Posteriormente desarrollé mi estudios universitarios de diseño gráfico en la Universidad de Playa Ancha de la cuidad de Valparaíso.</p>
+      <p class="my-4">Vivo en Santiago de Chile pero mi niñez y juventud fueron en la cuidad de Quillota de la Regíon de
+        Valparaíso, donde estudié mi educación básica y secundaria. Posteriormente desarrollé mi estudios universitarios
+        de diseño gráfico en la Universidad de Playa Ancha de la cuidad de Valparaíso.</p>
       <h3 class="text-left colortipo1 text-uppercase pt-4">Actualidad</h3>
-      <p class="my-4">Desde hace 11 años vivo en Santiago, desde ese entonces he intentado desarrollarme a nivel profesional trabajando en diversas agencias y participando en proyectos.</p>
+      <p class="my-4">Desde hace 11 años vivo en Santiago, desde ese entonces he intentado desarrollarme a nivel
+        profesional trabajando en diversas agencias y participando en proyectos.</p>
     </div>
   </section>
 
@@ -222,20 +221,21 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
       <section class="contacto my-5 pad-arriba" id="contacto">
         <h2 class="display-3 text-center my-5 text-secondary">Contacto</h2>
         <p class="mt-4 text-center">A traves del siguiente formulario podrás comunicarte conmigo</p>
-        <div class="typeform-widget " data-url="https://form.typeform.com/to/i93xOFEd" style="width: 100%; height: 500px;">
+        <div class="typeform-widget " data-url="https://form.typeform.com/to/i93xOFEd"
+          style="width: 100%; height: 500px;">
         </div>
         <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
         <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
             href="https://admin.typeform.com/signup?utm_campaign=i93xOFEd&utm_source=typeform.com-01EE1GKWGZA2QNXH8K9JVWGCSM-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES"
             style="color: #999" target="_blank">Typeform</a> </div>
-        </section>
+      </section>
 
-     <!--footer-->
+      <!--footer-->
       <footer id="contacto" class="fondo-gradiente text-center py-5">
         <p class="my-2 text-white tipografia2 display-4">Daniel Moraga</p>
-        <a href="https://facebook.com"><i class="fab fa-facebook fa-3x text-white px-2"></i></a>
-        <a href="https://www.instagram.com"><i class="fab fa-instagram fa-3x text-white px-2"></i></a>
-        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-3x text-white px-2"></i></a>
+        <a href="https://facebook.com" target="blank"><i class="fab fa-facebook fa-3x text-white px-2"></i></a>
+        <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram fa-3x text-white px-2"></i></a>
+        <a href="https://www.linkedin.com" target="blank"><i class="fab fa-linkedin fa-3x text-white px-2"></i></a>
       </footer>
 
 
@@ -251,7 +251,8 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
               </button>
             </div>
             <div class="modal-body">
-              <p>
+              <img src="assets/img/cuppon.jpg"  class="img-fluid" alt="web suricata">
+              <p class="text-center">
                 Diseño de sitio web para el aprendizaje de html y css, curso ux/ui
               </p>
             </div>
@@ -273,9 +274,10 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
               </button>
             </div>
             <div class="modal-body">
-              <p>
+              <img src="assets/img/iguanas.jpg"  class="img-fluid" alt="web iguanas">
+              <p class="text-center">
                 Diseño de sitio web para el aprendizaje de html y css, curso ux/ui
-              </p>            
+              </p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -295,9 +297,10 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
               </button>
             </div>
             <div class="modal-body">
-              <p>
+              <img src="assets/img/meet.jpg"  class="img-fluid" alt="web meet$coffee">
+              <p class="text-center">
                 Diseño de sitio web para el aprendizaje de html y css, curso ux/ui
-              </p>            
+              </p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -317,7 +320,8 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
               </button>
             </div>
             <div class="modal-body">
-              <p>
+              <img src="assets/img/olivia.jpg"  class="img-fluid" alt="web Olivia Ross">
+              <p class="text-center">
                 Diseño de sitio web para el aprendizaje de html y css, curso ux/ui
               </p>
             </div>
@@ -339,7 +343,8 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
               </button>
             </div>
             <div class="modal-body">
-              <p>
+              <img src="assets/img/ricomida.jpg"  class="img-fluid" alt="web suricata">
+              <p class="text-center">
                 Diseño de sitio web para el aprendizaje de html y css, curso ux/ui
               </p>
             </div>
@@ -361,9 +366,10 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
               </button>
             </div>
             <div class="modal-body">
-              <p>
+              <img src="assets/img/suricata.jpg"  class="img-fluid" alt="web suricata">
+              <p class="text-center">
                 Diseño de sitio web para el aprendizaje de html y css, curso ux/ui
-              </p>            
+              </p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
